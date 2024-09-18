@@ -26,5 +26,5 @@ if __name__ == '__main__':
               {'name':'Mark','transaction amount': 9500, 'device':'Gaming Setup'},
               {'name':'Rachel','transaction amount': 500, 'device':'Apple watch'}]
     bubble= BubbleSort(elements)
-    bubble.sort(key='transaction amount')
+    bubble.sort('transaction amount')
     print(elements)
